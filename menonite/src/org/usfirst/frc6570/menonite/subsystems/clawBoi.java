@@ -44,11 +44,18 @@ public class clawBoi extends Subsystem {
         // Set the default command for a subsystem here.
         // setDefaultCommand(new MySpecialCommand());
     }
-
+    public void open() {
+    	grabbyboi.set(DoubleSolenoid.Value.kForward);
+    	}
+    public void close() {
+    	grabbyboi.set(DoubleSolenoid.Value.kReverse);
+    	}
+    public void stop() { 
+    	grabbyboi.set(DoubleSolenoid.Value.kOff);
+    }
     @Override
     public void periodic() {
         // Put code here to be run every loop
-
     }
 
     // Put methods for controlling this subsystem
