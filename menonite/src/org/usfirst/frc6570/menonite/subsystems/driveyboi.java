@@ -78,6 +78,9 @@ public class driveyboi extends PIDSubsystem {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());
     }
+    public void arcadeDrive() {
+    	drivetrain.arcadeDrive(xSpeed, yRotation);
+    }
 
     @Override
     protected double returnPIDInput() {
