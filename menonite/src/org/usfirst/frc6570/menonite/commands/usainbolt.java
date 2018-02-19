@@ -12,7 +12,6 @@
 package org.usfirst.frc6570.menonite.commands;
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc6570.menonite.Robot;
-import org.usfirst.frc6570.menonite.OI;
 
 /**
  *
@@ -39,7 +38,7 @@ public class usainbolt extends Command {
     // Called just before this Command runs the first time
     @Override
     protected void initialize() {
-    	Robot.driveyboi.joydrive();
+    	Robot.driveyboi.
     }
 
     // Called repeatedly when this Command is scheduled to run
