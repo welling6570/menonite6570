@@ -27,6 +27,7 @@ import org.usfirst.frc6570.menonite.subsystems.*;
  * creating this project, you must also update the build.properties file in 
  * the project.
  */
+@SuppressWarnings("unused")
 public class Robot extends TimedRobot {
 
     Command autonomousCommand;
